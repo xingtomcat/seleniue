@@ -1,0 +1,225 @@
+{
+  "id": "147b047c-c317-421c-b0a0-1cd6a5d26618",
+  "version": "2.0",
+  "name": "test1",
+  "url": "https://webvpn.hnust.edu.cn/",
+  "tests": [{
+    "id": "4674a730-7eb9-4333-a6fa-2ffb0a63ff1b",
+    "name": "vpn",
+    "commands": [{
+      "id": "e034385b-0bdb-4638-923b-66f4e3c5f649",
+      "comment": "",
+      "command": "open",
+      "target": "https://webvpn.hnust.edu.cn/https/77726476706e69737468656265737421f3f652d12e7e605e6b1b9de29d51367b10e1/cas/login?service=https%3A%2F%2Fwebvpn.hnust.edu.cn%2Flogin%3Fcas_login%3Dtrue",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "64b72fdb-8cf4-4de3-85e4-4dc6b4f38d6b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "877x783",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6e2b78fe-9494-404a-815a-fc57f507882e",
+      "comment": "",
+      "command": "type",
+      "target": "css=.el-form-item:nth-child(1) .el-input--default > .el-input__inner",
+      "targets": [
+        ["css=.el-form-item:nth-child(1) .el-input--default > .el-input__inner", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='vue_main']/div[2]/div/div/div[4]/div/div[3]/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "2105010511"
+    }, {
+      "id": "0c1ad028-15cb-4c91-95b9-24c5817174d5",
+      "comment": "",
+      "command": "type",
+      "target": "css=.el-input--suffix > .el-input__inner",
+      "targets": [
+        ["css=.el-input--suffix > .el-input__inner", "css:finder"],
+        ["xpath=//input[@type='password']", "xpath:attributes"],
+        ["xpath=//div[@id='vue_main']/div[2]/div/div/div[4]/div/div[3]/div/div/form/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "8955195aA@"
+    }, {
+      "id": "b6f95dd9-8146-4e71-b801-9e3af66bc766",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-form-item__content > .el-button--default > span",
+      "targets": [
+        ["css=.el-form-item__content > .el-button--default > span", "css:finder"],
+        ["xpath=//div[@id='vue_main']/div[2]/div/div/div[4]/div/div[3]/div/div/form/div[3]/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'登录')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4b61fd3-b96d-4677-a83f-e04fdac281ad",
+      "comment": "",
+      "command": "click",
+      "target": "css=#group-2 > .layui-col-xs12:nth-child(2) .vpn-content-block-panel__content",
+      "targets": [
+        ["css=#group-2 > .layui-col-xs12:nth-child(2) .vpn-content-block-panel__content", "css:finder"],
+        ["xpath=//div[@id='group-2']/div[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[6]/div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win6271",
+      "windowTimeout": 2000
+    }, {
+      "id": "d75bf381-df5e-4336-bfcf-8eb2b7ad2d7e",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win6271}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a7a29065-6f8b-4483-80ea-ddc1114bcde5",
+      "comment": "",
+      "command": "type",
+      "target": "id=Ecp_TextBoxUserName",
+      "targets": [
+        ["id=Ecp_TextBoxUserName", "id"],
+        ["name=Ecp_TextBoxUserName", "name"],
+        ["css=#Ecp_TextBoxUserName", "css:finder"],
+        ["xpath=//input[@id='Ecp_TextBoxUserName']", "xpath:attributes"],
+        ["xpath=//div[@id='Ecp_RegistNew_input']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "2105010511"
+    }, {
+      "id": "3e28ede1-cb81-47c8-8f39-cc60f9f1d2f2",
+      "comment": "",
+      "command": "type",
+      "target": "css=#Ecp_RegistNew_input > input:nth-child(3)",
+      "targets": [
+        ["css=#Ecp_RegistNew_input > input:nth-child(3)", "css:finder"],
+        ["xpath=//input[@type='password']", "xpath:attributes"],
+        ["xpath=//div[@id='Ecp_RegistNew_input']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "8955195aA@"
+    }, {
+      "id": "c92caab2-0050-4a70-baeb-b3ae69943c65",
+      "comment": "",
+      "command": "type",
+      "target": "id=txt_SearchText",
+      "targets": [
+        ["id=txt_SearchText", "id"],
+        ["name=txt_SearchText", "name"],
+        ["css=#txt_SearchText", "css:finder"],
+        ["xpath=//input[@id='txt_SearchText']", "xpath:attributes"],
+        ["xpath=//div[2]/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "人工智能"
+    }, {
+      "id": "528216e3-786b-4d38-83b0-b2f32ffb4d2c",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=txt_SearchText",
+      "targets": [
+        ["id=txt_SearchText", "id"],
+        ["name=txt_SearchText", "name"],
+        ["css=#txt_SearchText", "css:finder"],
+        ["xpath=//input[@id='txt_SearchText']", "xpath:attributes"],
+        ["xpath=//div[2]/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "52f2cd4b-d20e-4eab-b2d7-cd2a4aef6596",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=生物多样性“多产泛融多方惠益”数字化体系构建及应用建议",
+      "targets": [
+        ["linkText=生物多样性“多产泛融多方惠益”数字化体系构建及应用建议", "linkText"],
+        ["css=tr:nth-child(1) .fz14", "css:finder"],
+        ["xpath=//a[contains(text(),'生物多样性“多产泛融多方惠益”数字化体系构建及应用建议')]", "xpath:link"],
+        ["xpath=//div[@id='gridTable']/div/div/table/tbody/tr/td[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://webvpn.hnust.edu.cn/https/77726476706e69737468656265737421fbf952d2243e635930068cb8/kcms2/article/abstract?v=4HX-653LtvLF6uiuJ8Zbkb-FOoJTqc7aas6Xr7HLe6M1tVdb_c4PJL3Wvco7XFZ0hWNnvz2aOapWh2xHlx1UYrsWHGHZC7mvUWOMNDX6EMnESCWIOGHmGMEIu9ejLyYwyrEz3fYMOivDnHfJrw8ptA==&uniplatform=NZKPT&language=CHS')]", "xpath:href"],
+        ["xpath=//td[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'生物多样性“多产泛融多方惠益”数字化体系构建及应用建议')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "89fadf41-0688-4e4c-846a-6af1b9458778",
+      "comment": "",
+      "command": "type",
+      "target": "id=Ecp_TextBoxUserName",
+      "targets": [
+        ["id=Ecp_TextBoxUserName", "id"],
+        ["name=Ecp_TextBoxUserName", "name"],
+        ["css=#Ecp_TextBoxUserName", "css:finder"],
+        ["xpath=//input[@id='Ecp_TextBoxUserName']", "xpath:attributes"],
+        ["xpath=//div[@id='Ecp_RegistNew_input']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "2105010511"
+    }, {
+      "id": "c6a16e39-8739-40f9-8947-d241bfa7ddb7",
+      "comment": "",
+      "command": "type",
+      "target": "css=#Ecp_RegistNew_input > input:nth-child(3)",
+      "targets": [
+        ["css=#Ecp_RegistNew_input > input:nth-child(3)", "css:finder"],
+        ["xpath=//input[@type='password']", "xpath:attributes"],
+        ["xpath=//div[@id='Ecp_RegistNew_input']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "8955195aA@"
+    }, {
+      "id": "bd32467b-dd12-4b77-b39a-40c73c48f05c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=生物多样性“多产泛融多方惠益”数字化体系构建及应用建议",
+      "targets": [
+        ["linkText=生物多样性“多产泛融多方惠益”数字化体系构建及应用建议", "linkText"],
+        ["css=tr:nth-child(1) .fz14", "css:finder"],
+        ["xpath=//a[contains(text(),'生物多样性“多产泛融多方惠益”数字化体系构建及应用建议')]", "xpath:link"],
+        ["xpath=//div[@id='gridTable']/div/div/table/tbody/tr/td[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://webvpn.hnust.edu.cn/https/77726476706e69737468656265737421fbf952d2243e635930068cb8/kcms2/article/abstract?v=4HX-653LtvLF6uiuJ8Zbkb-FOoJTqc7aas6Xr7HLe6M1tVdb_c4PJL3Wvco7XFZ0hWNnvz2aOapWh2xHlx1UYrsWHGHZC7mvUWOMNDX6EMnESCWIOGHmGMEIu9ejLyYwyrEz3fYMOivDnHfJrw8ptA==&uniplatform=NZKPT&language=CHS')]", "xpath:href"],
+        ["xpath=//td[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'生物多样性“多产泛融多方惠益”数字化体系构建及应用建议')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win3065",
+      "windowTimeout": 2000
+    }, {
+      "id": "b0abf576-b228-4c9b-80c2-6cc1055650ea",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=生物多样性“多产泛融多方惠益”数字化体系构建及应用建议",
+      "targets": [
+        ["linkText=生物多样性“多产泛融多方惠益”数字化体系构建及应用建议", "linkText"],
+        ["css=tr:nth-child(1) .fz14", "css:finder"],
+        ["xpath=//a[contains(text(),'生物多样性“多产泛融多方惠益”数字化体系构建及应用建议')]", "xpath:link"],
+        ["xpath=//div[@id='gridTable']/div/div/table/tbody/tr/td[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://webvpn.hnust.edu.cn/https/77726476706e69737468656265737421fbf952d2243e635930068cb8/kcms2/article/abstract?v=4HX-653LtvLF6uiuJ8Zbkb-FOoJTqc7aas6Xr7HLe6M1tVdb_c4PJL3Wvco7XFZ0hWNnvz2aOapWh2xHlx1UYrsWHGHZC7mvUWOMNDX6EMnESCWIOGHmGMEIu9ejLyYwyrEz3fYMOivDnHfJrw8ptA==&uniplatform=NZKPT&language=CHS')]", "xpath:href"],
+        ["xpath=//td[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'生物多样性“多产泛融多方惠益”数字化体系构建及应用建议')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7446dcf-11d7-4bcb-89cd-2269db48cf9b",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win3065}",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "5ef5389b-80a0-479b-8de5-9b4fa1a1d8d5",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["4674a730-7eb9-4333-a6fa-2ffb0a63ff1b"]
+  }],
+  "urls": ["https://webvpn.hnust.edu.cn/"],
+  "plugins": []
+}
